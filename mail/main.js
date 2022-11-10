@@ -5,9 +5,11 @@ const myAccess = document.getElementById("access");
 const myArray = ["pepethefrog@gmail.com", "mario.draghi@libero.it", "pope.francis.1936@vatican.com", "jesuschristnotsuperstar@heaven.srl.com", "LETMEIN@letmein.letmein"]
 
 // Inserisco funzione del bottone
-myButton.addEventListener(click,
+myButton.addEventListener("click",
     function() {
-        let myEmail = document.getElementById.value("email");
+        let myEmail = document.getElementById("email").value;
+
+        console.log(myEmail);
 
         // Devo trovare il modo di dire che SE l'email è contenuta nella lista ( senza usare include) allora aggiungo 
         // classe granted alla sezione inferiore al div con id access, altrimenti aggiungo classe denied
