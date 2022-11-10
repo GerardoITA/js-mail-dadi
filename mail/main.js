@@ -13,12 +13,19 @@ myButton.addEventListener("click",
 
         // Devo trovare il modo di dire che SE l'email è contenuta nella lista ( senza usare include) allora aggiungo 
         // classe granted alla sezione inferiore al div con id access, altrimenti aggiungo classe denied
-        if (myEmail ) {
-            myAccess.classList.add("accessGranted");
+        for (let i=0; i< myArray.length; i++) {
+            let element = myArray[i];
+
+            console.log(element);
+
+            if (myEmail === element) {
+                myAccess.classList.add("accessGranted");
+            }
+            else {
+                myAccess.classList.add("accessDenied");
+            }
         }
-        else {
-            myAccess.classList.add("accessDenied");
-        }
+       
 
     }
 )
