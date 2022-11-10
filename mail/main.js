@@ -8,7 +8,8 @@ myButton.addEventListener(click,
     function() {
         let myEmail = document.getElementById.value("email");
 
-        // 
+        // Devo trovare il modo di dire che SE l'email è contenuta nella lista ( senza usare include) allora aggiungo 
+        // classe granted alla sezione inferiore al div con id access, altrimenti aggiungo classe denied
         if (myEmail ==)
 
     }
