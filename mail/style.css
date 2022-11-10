@@ -19,9 +19,9 @@
     transform: translate(-50%);
 }
 
-.access-denied {
+.accessDenied {
     background-image: url(img/AccessDenied.png);
 }
-.access-granted {
+.accessGranted {
     background-image: url(img/Welcome.png);
 }
