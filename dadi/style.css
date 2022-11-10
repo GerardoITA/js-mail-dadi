@@ -1,0 +1,26 @@
+* {
+    box-sizing: content-box;
+}
+.container {
+    margin: 200px auto;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    border: 10px solid black;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.border-right {
+    border-right: 5px solid black;
+}
+#button {
+    cursor: pointer;
+    font-weight: bold;
+}
+.box div {
+    line-height: 70px;
+    text-align: center;
+}
