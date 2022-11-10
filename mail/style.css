@@ -1,0 +1,27 @@
+.container {
+    margin: 200px auto;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    width: 600px;
+    height: 100px;
+    border: 5px solid black;
+    
+}
+#email {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.access-denied {
+    background-image: url(img/AccessDenied.png);
+}
+.access-granted {
+    background-image: url(img/Welcome.png);
+}
